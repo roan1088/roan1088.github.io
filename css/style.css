@@ -18,6 +18,11 @@ body {
     font-weight: bold;
 }
 
+.portfolio-image {
+    width: 350px;
+    margin-bottom: 8px;
+}
+
 footer {
     background-color: black;
     padding: 4px;
