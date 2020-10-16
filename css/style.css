@@ -1,0 +1,23 @@
+#navBrand {
+    color: white;
+    background-color: lightseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+#mainArea {
+    background-color: white;
+}
+
+#mainArea h1 {
+    color: lightseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+}
