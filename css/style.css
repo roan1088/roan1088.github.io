@@ -20,6 +20,11 @@ body {
 
 footer {
     background-color: black;
+    padding: 4px;
+}
+
+footer a {
+    padding: 4px;
 }
 
 .navbar {
