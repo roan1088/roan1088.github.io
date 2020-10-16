@@ -5,11 +5,11 @@
 }
 
 body {
-    background-color: gainsboro;
+    background-color: #7c88a0;
 }
 
 #mainArea {
-    background-color: white;
+    background-color: #dedede;
 }
 
 #mainArea h1 {
@@ -20,4 +20,13 @@ body {
 
 footer {
     background-color: black;
+}
+
+.navbar {
+    background-color: #252747;
+}
+
+.navbar-brand {
+    padding-left: 4px;
+    padding-right: 4px;
 }
