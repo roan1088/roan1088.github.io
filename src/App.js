@@ -7,18 +7,21 @@ import Portfolio from './pages/Portfolio';
 import PageNotFound from './pages/PageNotFound';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Main from './components/Main';
 
 function App() {
   return (
     <div>
       <Router>
         <Header />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
-          <Route component={PageNotFound} />
-        </Switch>
+        <Main>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/contact" component={Contact} />
+            <Route component={PageNotFound} />
+          </Switch>
+        </Main>
         <Footer />
       </Router>
     </div>

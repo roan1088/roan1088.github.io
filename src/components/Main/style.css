@@ -1,0 +1,9 @@
+#mainArea {
+  background-color: #dedede;
+}
+
+#mainArea h1 {
+  color: lightseagreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
