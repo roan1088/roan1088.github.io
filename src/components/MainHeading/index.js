@@ -2,8 +2,8 @@ import React from "react";
 
 function MainHeading({ children }) {
   return (
-    <div class="row">
-      <div class="col">
+    <div className="row">
+      <div className="col">
         <h1>{children}</h1>
         <hr />
       </div>
