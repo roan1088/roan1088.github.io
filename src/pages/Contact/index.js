@@ -1,8 +1,9 @@
 import React from "react";
+import MainHeading from "../../components/MainHeading";
 
 function Contact() {
   return (
-    <p>Contact page</p>
+    <MainHeading>Contact Me</MainHeading>
   );
 }
 

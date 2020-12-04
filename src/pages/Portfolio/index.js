@@ -1,8 +1,9 @@
 import React from "react";
+import MainHeading from "../../components/MainHeading";
 
 function Portfolio() {
   return (
-    <p>Portfolio page</p>
+    <MainHeading>Portfolio</MainHeading>
   );
 }
 

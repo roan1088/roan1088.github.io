@@ -1,8 +1,9 @@
 import React from "react";
+import MainHeading from "../../components/MainHeading";
 
 function Home() {
   return (
-    <p>Home page</p>
+    <MainHeading>About Me</MainHeading>
   );
 }
 

@@ -1,8 +1,9 @@
 import React from "react";
+import MainHeading from "../../components/MainHeading";
 
 function PageNotFound() {
   return (
-    <p>PageNotFound page</p>
+    <MainHeading>4 0 4</MainHeading>
   );
 }
 
