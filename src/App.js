@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import PageNotFound from './pages/PageNotFound';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route component={PageNotFound} />
         </Switch>
+        <Footer />
       </Router>
     </div>
   );
