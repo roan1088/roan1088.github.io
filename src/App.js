@@ -5,11 +5,13 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import PageNotFound from './pages/PageNotFound';
+import Header from './components/Header';
 
 function App() {
   return (
     <div>
       <Router>
+        <Header />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />

@@ -1,0 +1,14 @@
+#navBrand {
+  color: white;
+  background-color: lightseagreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+  background-color: #252747;
+}
+
+.navbar-brand {
+  padding-left: 4px;
+  padding-right: 4px;
+}
