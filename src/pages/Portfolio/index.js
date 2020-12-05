@@ -47,6 +47,10 @@ function Portfolio() {
     description: "A game of Hangman made using JS/JQuery"
   }];
 
+  useEffect(() => {
+    document.title = "Rohan's Portfolio";
+  }, []);
+
   return (
     <>
       <MainHeading>Portfolio</MainHeading>

@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import MainHeading from "../../components/MainHeading";
 
 function Home() {
+  useEffect(() => {
+    document.title = "Rohan Chitrakar";
+  }, []);
+
   return (
     <>
       <MainHeading>About Me</MainHeading>

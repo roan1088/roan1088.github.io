@@ -6,6 +6,10 @@ function Contact() {
     e.preventDefault();
   }
 
+  useEffect(() => {
+    document.title = "Contact Rohan";
+  }, []);
+
   return (
     <>
       <MainHeading>Contact Me</MainHeading>
