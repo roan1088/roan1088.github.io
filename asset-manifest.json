@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9d7a3ff9.chunk.css",
+    "main.js": "/static/js/main.e2b54467.chunk.js",
+    "main.js.map": "/static/js/main.e2b54467.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
+    "static/js/2.524e26bc.chunk.js": "/static/js/2.524e26bc.chunk.js",
+    "static/js/2.524e26bc.chunk.js.map": "/static/js/2.524e26bc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.9d7a3ff9.chunk.css.map": "/static/css/main.9d7a3ff9.chunk.css.map",
+    "static/js/2.524e26bc.chunk.js.LICENSE.txt": "/static/js/2.524e26bc.chunk.js.LICENSE.txt",
+    "static/media/eat-da-burger.13940846.png": "/static/media/eat-da-burger.13940846.png",
+    "static/media/employee-directory.df514249.png": "/static/media/employee-directory.df514249.png",
+    "static/media/hangman.e13577f4.png": "/static/media/hangman.e13577f4.png",
+    "static/media/progressive-budget.235b6d8f.png": "/static/media/progressive-budget.235b6d8f.png",
+    "static/media/quizzinc.04112db1.png": "/static/media/quizzinc.04112db1.png",
+    "static/media/weather-dashboard.490492a9.png": "/static/media/weather-dashboard.490492a9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2fd7dc15.js",
+    "static/js/2.524e26bc.chunk.js",
+    "static/css/main.9d7a3ff9.chunk.css",
+    "static/js/main.e2b54467.chunk.js"
+  ]
+}
