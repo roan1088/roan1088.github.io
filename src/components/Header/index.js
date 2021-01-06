@@ -20,6 +20,9 @@ function Header() {
             <li className={location.pathname === "/portfolio" ? "nav-item active" : "nav-item"}>
               <Link to="/portfolio" className="nav-link">Portfolio</Link>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="https://docs.google.com/document/d/19Uls5sSoLvveeBbFePo_sh7HzL3f7aQF9ZOCT75x-ak/edit?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
+            </li>
             <li className={location.pathname === "/contact" ? "nav-item active" : "nav-item"}>
               <Link to="/contact" className="nav-link">Contact</Link>
             </li>
