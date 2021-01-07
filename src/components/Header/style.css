@@ -12,3 +12,7 @@
   padding-left: 4px;
   padding-right: 4px;
 }
+
+.custom-control {
+  text-align: right;
+}

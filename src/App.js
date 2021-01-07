@@ -27,7 +27,7 @@ function App() {
   return (
     <div>
       <Router>
-        <Header />
+        <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <Main>
           <Switch>
             <Route exact path="/" component={Home} />

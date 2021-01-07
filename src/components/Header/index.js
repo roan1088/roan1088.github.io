@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./style.css";
 
-function Header() {
+function Header({ darkMode, toggleDarkMode }) {
   const location = useLocation();
 
   return (
@@ -29,6 +29,10 @@ function Header() {
           </ul>
         </div>
       </nav>
+      <div className="custom-control custom-switch">
+        <input type="checkbox" className="custom-control-input" id="darkModeSwitch" checked={darkMode} onChange={toggleDarkMode} />
+        <label className="custom-control-label" htmlFor="darkModeSwitch"></label>
+      </div>
     </header>
   );
 }
