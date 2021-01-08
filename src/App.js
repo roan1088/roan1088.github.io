@@ -33,7 +33,7 @@ function App() {
       {setBackground()}
       <Router>
         <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-        <Main>
+        <Main darkMode={darkMode}>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/portfolio" component={Portfolio} />

@@ -2,8 +2,21 @@
   background-color: #dedede;
 }
 
-#mainArea h1 {
-  color: lightseagreen;
+#mainArea-darkmode {
+  background-color: #383846;
+  color: #cdcdde;
+}
+
+#mainArea-darkmode hr {
+  background-color: #cdcdde;
+}
+
+#mainArea h1, #mainArea-darkmode h1 {
+  color: #252747;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
+}
+
+#mainArea-darkmode h1 {
+  color: #cdcdde;
 }
