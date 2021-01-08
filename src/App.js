@@ -24,8 +24,13 @@ function App() {
     setDarkMode(!darkMode);
   }
 
+  const setBackground = () => {
+    document.body.className = (darkMode ? "bg-darkmode" : "bg-lightmode");
+  }
+
   return (
     <div>
+      {setBackground()}
       <Router>
         <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <Main>
