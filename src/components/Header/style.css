@@ -1,6 +1,5 @@
 #navBrand {
-  color: white;
-  background-color: lightseagreen;
+  color: #cdcdde;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -15,4 +14,13 @@
 
 .custom-control {
   text-align: right;
+}
+
+.mode-label {
+  position: relative;
+  right: 42px;
+}
+
+.mode-dark {
+  color: #cdcdde;
 }

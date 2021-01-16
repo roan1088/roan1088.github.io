@@ -30,6 +30,7 @@ function Header({ darkMode, toggleDarkMode }) {
         </div>
       </nav>
       <div className="custom-control custom-switch">
+        <span className={"mode-label " + (darkMode ? "mode-dark" : "")}>{darkMode ? <>Dark Mode <i className="fas fa-moon"></i></> : <>Light Mode <i className="far fa-moon"></i></>}</span>
         <input type="checkbox" className="custom-control-input" id="darkModeSwitch" checked={darkMode} onChange={toggleDarkMode} />
         <label className="custom-control-label" htmlFor="darkModeSwitch"></label>
       </div>
