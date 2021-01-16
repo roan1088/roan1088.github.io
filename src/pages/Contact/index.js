@@ -23,7 +23,7 @@ function Contact() {
             </div>
             <div className="form-group">
               <label htmlFor="email">Email</label>
-              <input type="email" className="form-control" id="name" placeholder="Email" />
+              <input type="email" className="form-control" id="email" placeholder="Email" />
             </div>
             <div className="form-group">
               <label htmlFor="message">Message</label>
