@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function Project({ name, image, homepage, url, description }) {
+function Project({ name, image, homepage, url, description, stack }) {
   return (
     <div className="col-lg-6 mb-3">
       <a href={homepage} target="_blank" rel="noreferrer">
@@ -10,6 +10,7 @@ function Project({ name, image, homepage, url, description }) {
       <h4>{name}</h4>
       <a href={url} target="_blank" rel="noreferrer">Link to github repo</a>
       <p>{description}</p>
+      <p>Stack: {stack}</p>
     </div>
   );
 }
