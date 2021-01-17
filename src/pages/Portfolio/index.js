@@ -29,7 +29,7 @@ function Portfolio() {
     homepage: "https://google-books-1088.herokuapp.com/",
     url: "https://github.com/roan1088/google-books-search/",
     description: "An app that searches books using Google Books API, and saves books to a database.",
-    stack: ""
+    stack: "Node.js, Express, Mongoose, MongoDB, API, React"
   },{
     name: "Employee Directory",
     image: employeeDirectory,
